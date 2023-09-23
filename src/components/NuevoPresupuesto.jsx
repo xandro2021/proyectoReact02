@@ -28,16 +28,16 @@ const NuevoPresupuesto = ({ presupuesto, setPresupuesto }) => {
 
           <input
             className="nuevo-presupuesto"
-            type="text"
+            type="number"
             placeholder="Agrega tu Presupuesto"
             value={presupuesto}
-            onChange={e => setPresupuesto(e.target.value)}
+            onChange={e => setPresupuesto(Number(e.target.value))}
           />
         </div>
 
         <input type="submit" value="Agregar" />
 
-        { mensaje && <Mensaje tipo="error">{mensaje}</Mensaje>}
+        {mensaje && <Mensaje tipo="error">{mensaje}</Mensaje>}
 
       </form>
 
