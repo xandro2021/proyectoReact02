@@ -67,7 +67,7 @@ const Modal = ({ setModal, animarModal, setAnimarModal, guardarGasto }) => {
         </div>
 
         <div className="campo">
-          <label htmlFor="cantidad">Cantidad</label>
+          <label htmlFor="cantidad">Costo</label>
 
           <input
             id="cantidad"
@@ -91,7 +91,7 @@ const Modal = ({ setModal, animarModal, setAnimarModal, guardarGasto }) => {
             <option value="ahorro"> Ahorro </option>
             <option value="comida"> Comida </option>
             <option value="casa"> Casa </option>
-            <option value="gastos"> Gastos </option>
+            <option value="gastos"> Gastos Varios </option>
             <option value="ocio"> Ocio </option>
             <option value="salud"> Salud </option>
             <option value="suscripciones"> Suscripciones </option>
