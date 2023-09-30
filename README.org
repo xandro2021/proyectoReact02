@@ -19,3 +19,11 @@ npm init vite@latest
 #+begin_src bash
 npm run dev
 #+end_src
+
+* Dependencies
+** React Circular Progressbar
++ An npm package to display a circular bar
+** React Swipeable List
++ An npm package to add the component to swipe and execute an action
+** Prop-Types
++ Another npm package used to fix an error
