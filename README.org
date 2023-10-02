@@ -27,3 +27,6 @@ npm run dev
 + An npm package to add the component to swipe and execute an action
 ** Prop-Types
 + Another npm package used to fix an error
+
+* Deployment
+[[https://dapper-custard-e7a938.netlify.app/][Link to the deployed Project]]
